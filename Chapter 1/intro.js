@@ -41,24 +41,39 @@
 // console.log(index);
 
 // Practice Exercises
-let name= 'Hafsa';
-console.log(name, typeof name);
+// let name= 'Hafsa';
+// console.log(name, typeof name);
 
-let age= 25;
-console.log(age, typeof age);
+// let age= 25;
+// console.log(age, typeof age);
 
-let isStudent= true;
-console.log(isStudent, typeof isStudent);
+// let isStudent= true;
+// console.log(isStudent, typeof isStudent);
 
-let address= [324, "Nanyuki", "Kenya"];
-console.log(address, typeof address);
+// let address= [324, "Nanyuki", "Kenya"];
+// console.log(address, typeof address);
 
-let hobbies=["playing football", "reading", "coding", "running"];
-console.log(hobbies, typeof hobbies);
+// let hobbies=["playing football", "reading", "coding", "running"];
+// console.log(hobbies, typeof hobbies);
 
-let undefinedVariable;
-console.log(undefinedVariable, typeof undefinedVariable);
+// let undefinedVariable;
+// console.log(undefinedVariable, typeof undefinedVariable);
 
-let nullVariable= null;
-console.log(nullVariable, typeof nullVariable);
+// let nullVariable= null;
+// console.log(nullVariable, typeof nullVariable);
+
+// Practice Exercise 2
+
+let userName= prompt("What is your name");
+
+let userAge=prompt("What is your age");
+let age=Number(userAge);
+
+let currentYear =(new Date()).getFullYear();
+let yearBorn=currentYear - age;
+console.log(`${userName} is ${age} years old and was born in ${yearBorn}`);
+alert(`${userName} is ${age} years old and was born in ${yearBorn}`);
+
+
+
 
